@@ -7,7 +7,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": 1.22.19
+    "nuxt": 1.22.19",
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",
