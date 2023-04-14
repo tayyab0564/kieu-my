@@ -1,20 +1,16 @@
 {
-  "name": "my-project",
-  "version": "1.0.0",
-  "description": "My Nuxt.js project with GraphQL",
-  "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "@nuxtjs/apollo": "^4.0.0-rc11",
-    "graphql": "^15.6.0",
-    "graphql-tag": "^2.12.5"
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": "^2.15.7"
+    "nuxt": "npm:nuxt3@latest"
   },
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start"
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
   }
 }
