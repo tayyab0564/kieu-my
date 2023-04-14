@@ -1,13 +1,12 @@
 {
-  "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": 3.4.1",
+    "nuxt": "npm:nuxt3@latest"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",
