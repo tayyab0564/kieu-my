@@ -2,8 +2,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-     "dev": "nuxt",
+    "dev": "nuxt",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
